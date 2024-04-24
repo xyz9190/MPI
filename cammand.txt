@@ -1,0 +1,25 @@
+sudo yum provides */mpicc
+
+sudo yum install openmpi-devel
+
+
+export PATH=$PATH:/usr/lib64/openmpi/bin
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:usr/lib64/openmpi/bin
+
+
+
+export PATH=$PATH:/usr/lib/openmpi/bin
+
+
+sudo yum install mpich2
+
+sudo yum install mpich2-devel
+
+sudo yum install mpich2-autoload
+
+
+yum install openmpi-devel.i686
+
+yum search openmpi-devel
+
